@@ -1,5 +1,5 @@
 public class Addition implements IOperation {
-    private IOperation nextOperation;
+   private IOperation nextOperation;
 
     @Override
     public void setNextOperation(IOperation nextOperation) {
