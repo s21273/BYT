@@ -18,7 +18,7 @@ public class Client {
         userList.add(op.pullObject());
         if(userList.get(userList.size() -1) == null) {
             userList.remove(userList.size() -1);
-            System.out.println("User " + this.id + " trying to get an object, but object limit is reached.");
+            System.out.println("Client " + this.id + " trying to get an object, but object limit is reached.");
         }
 
     }
@@ -28,7 +28,7 @@ public class Client {
             op.addObject(userList.get(userList.size() - 1));
             userList.remove(userList.size() - 1);
         } else {
-            System.out.println("User " + this.id + " is out of objects.");
+            System.out.println("Client " + this.id + " is out of objects.");
         }
     }
 
