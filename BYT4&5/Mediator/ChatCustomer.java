@@ -14,5 +14,4 @@ public class ChatCustomer extends Customer {
     public void receive(String msg) {
         System.out.println(this.getName() + " : Received Message : " + msg);
     }
-
 }
